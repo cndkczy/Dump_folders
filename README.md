@@ -1,6 +1,6 @@
-##Toolbox for Inflorescence Measurements (TIM)
+##	Toolbox for Inflorescence Measurements (TIM)
 
-#Introduction
+#	Introduction
 
 This text describes the methods used for the Toolbox for Inflorescence Measurements (TIM). TIM consists of two functions: 
 
