@@ -12,7 +12,7 @@ step1: convert VCF file to Hapmap file (let’s take filteredSNP,imp.all.hmp.yan
     
 Step2: use Aaron’s script to filter genotype data based on max missing rate is 0.6 and minor allele frequency is 0.05
 
-	(1) https://github.com/amkusmec/snptools （this is a website developed by Aaron）
+	(1) https://github.com/amkusmec/snptools （developed by Aaron Kusmec）
 	(2)for more details, please check Linux_command2.txt file
 
 ## Transform hmp file to .ped and .map
@@ -23,7 +23,7 @@ Description: this file is used to display how to use Aaron’s script to convert
 Author: QiFu & Yan Zhou (last modified by Yan Zhou at Oct 15th, 2018)
 
 	please visit below website for more details
-	https://github.com/amkusmec/snptools （this is a website developed by Aaron）
+	https://github.com/amkusmec/snptools （developed by Aaron Kusmec）
 
 Step1: Download snptools-master folder from above website and make a subfolder named AB
 
