@@ -1,6 +1,6 @@
 # Generating SNPs files from VCF file and use it for genetic analysis
 
-##General Description
+## General Description
 Description: this file is used to explain how to convert sorghum genotype data.
 
 
@@ -13,7 +13,7 @@ Step2: use Aaron’s script to filter genotype data based on max missing rate is
 	(1) https://github.com/amkusmec/snptools （this is a website developed by Aaron）
 	(2)for more details, please check Linux_command2.txt file
 
-##Transform hmp file to .ped and .map
+## Transform hmp file to .ped and .map
 
 This step will generate genotypic files for GWAS (.xmat and .map file) and LD calculation via plink (.ped and .map)
 
@@ -50,7 +50,7 @@ Step8: generate .map file and .ped file
 	python3 convert.py -p ../AB/ -i Sorghum_genotype_307_filter.hmp.txt -o new_307numerical.ped -mi 2 -mo 3
 then, new_307numerical.ped and new_307numerical.map were generated
 
-##Calculate LD using plink
+## Calculate LD using plink
 
 Description: this file is used to display how to perform LD decay analysis. This step requires .ped and .map file
 Author: QiFu
@@ -65,4 +65,4 @@ Note: for subset population (i.e. 300 or 238 or 272) we could directly modified 
 
 ## Using plink generate .ped .bim .fam file for faststructure
 
-##Use faststructure to estimate population structure.
+## Use faststructure to estimate population structure.
