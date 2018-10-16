@@ -79,4 +79,6 @@ Note: for subset population (i.e. 300 or 238 or 272) we could directly modified 
 
 ## Using plink generate .ped .bim .fam file for faststructure
 
+It's better to use plink LD function since it will generate the .ped .bim .fam for you too. If you direct use --make-ped function, it can't correctly identify the missing genotype "N" whereas thus warning message will be returned. The ld function you can assign the missing genotype by yourself and it won't return warning message. 
+
 ## Use faststructure to estimate population structure.
