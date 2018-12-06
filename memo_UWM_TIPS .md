@@ -5,5 +5,7 @@ This was processed via plink. SNPs from hapmap3 were downloaded from Panzea (htt
 The hapmap3 file was then filtered with max missing genotyping less than or equal to 0.6 and minimum MAF=0.02.
 
 This resulted in 28203722 SNPs.Then we filtered the SNPs based on the LD using:
+
   ./plink --file uwm285_all.numeric_transformed --indep 20 10 2
+  
 And this result in 9728486 SNPs remain.
