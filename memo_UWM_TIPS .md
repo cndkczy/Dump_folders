@@ -1,4 +1,5 @@
-##SNP filtering
+
+#SNP filtering
 
 This was processed via plink. SNPs from hapmap3 were downloaded from Panzea (https://www.panzea.org/) and filtered for the 285 genotypes from Wisconsin Diversity Panel.
 
