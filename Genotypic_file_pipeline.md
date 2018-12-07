@@ -82,3 +82,6 @@ Note: for subset population (i.e. 300 or 238 or 272) we could directly modified 
 It's better to use plink LD function since it will generate the .ped .bim .fam for you too. If you direct use --make-ped function, it can't correctly identify the missing genotype "N" whereas thus warning message will be returned. The ld function you can assign the missing genotype by yourself and it won't return warning message. 
 
 ## Use faststructure to estimate population structure.
+## Use TASSEL5 to estimate Kinship
+	./run_pipeline.pl -Xms512m -Xmx150000m -importGuess <Imputfile.hmp.txt> -KinshipPlugin -method Centered_IBS -endPlugin -export <Exportfile> -exportType SqrMatrix
+
