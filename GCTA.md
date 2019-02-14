@@ -52,5 +52,5 @@ r(p), r(g), r(e) represent the phenotypic, genetic and environmental correlation
     
     ./gcta64  --reml-bivar --grm test  --pheno test.phen  --out test
 
-But again this is potentially incorrect since it was not corrected based on the LD bias in the estimated SNP-based heritability. As a result, the first method is strongly preferred for WGS SNP dataset.
+But again this is potentially incorrect since it does consider the LD bias in the estimated SNP-based heritability. As a result, the first method is strongly preferred for WGS SNP dataset.
 
