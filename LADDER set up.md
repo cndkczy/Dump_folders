@@ -8,7 +8,7 @@
 
     conda create --name py3819 python=3.8.19              
     conda activate py3819
-  Successful activation shall looks like "(py3819) [username]@[yourcomputer_name]"
+  Successful activation shall look like "(py3819) [username]@[yourcomputer_name]"
   
 ###  important: all following installation shall be run in python3.8.19. Using any higher versions that are default in Mac M2/M3 would fail
    
